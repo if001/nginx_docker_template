@@ -9,7 +9,6 @@ apt-get install -y nginx && \
 # varnish
 apt-get install -y varnish && \
 
-
 # time settings
 apt-get install -y ntp &&\
 cp /etc/localtime /etc/localtime.utc &&\
