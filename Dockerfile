@@ -4,10 +4,10 @@ RUN \
 apt-get update && \
 
 # nginx
-apt-get install -y nginx && \
+apt-get install -y nginx
 
 # varnish
-apt-get install -y varnish
+# apt-get install -y varnish
 
 # time settings
 #apt-get install -y ntp &&\
